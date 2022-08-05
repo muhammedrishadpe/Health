@@ -47,19 +47,20 @@ class MaterialsListTile extends StatelessWidget {
                     maxLines: 2,
                     style: const TextStyle(
                         color: Colors.black,
-                        fontSize: 16,
+                        fontSize: 15,
+                        // overflow: TextOverflow.fade,
                         fontWeight: FontWeight.w500),
                   ),
                 ),
                 const SizedBox(
-                  height: 15,
+                  height: 5,
                 ),
                 Expanded(
                   child: Text(
                     subTitle,
                     style: const TextStyle(
                         color: Color.fromARGB(255, 134, 134, 134),
-                        fontSize: 14),
+                        fontSize: 13),
                   ),
                 )
               ],
