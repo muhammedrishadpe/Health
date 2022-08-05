@@ -2,6 +2,7 @@ import '../models/ad_model.dart';
 import 'package:http/http.dart' as http;
 
 class RemoteService {
+  // ignore: body_might_complete_normally_nullable
   Future<List<Post>?> getPosts() async {
     var client = http.Client();
 
@@ -10,7 +11,6 @@ class RemoteService {
     var response = await client.get(uri);
     if (response.statusCode == 200) {
       var json = response.body;
-      print("object opeeeeeeen");
       return postFromJson(json);
     }
   }
