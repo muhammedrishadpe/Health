@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Health',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Mukta'),
       home: const Home(),
     );

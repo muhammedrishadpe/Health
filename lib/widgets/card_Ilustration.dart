@@ -37,8 +37,8 @@ class CardIlustration extends StatelessWidget {
           padding: const EdgeInsets.only(
               left: 15.0, right: 15.0, top: 15.0, bottom: 15.0),
           child: Container(
-            width: MediaQuery.of(context).size.width * 0.9,
-            height: 500,
+            width: MediaQuery.of(context).size.width * 0.8,
+            height: MediaQuery.of(context).size.height * 0.8,
             decoration: const BoxDecoration(
               borderRadius: BorderRadius.all(
                 Radius.circular(

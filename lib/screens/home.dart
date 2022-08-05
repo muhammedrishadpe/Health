@@ -44,19 +44,16 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     // ignore: unused_local_variable
     var size = MediaQuery.of(context).size.width;
-    return SafeArea(
-      child: Scaffold(
-        appBar: AppBar(
-          backgroundColor: blue,
-          elevation: 0,
-        ),
-        body: isLoaded
-            ? SingleChildScrollView(
+    return Scaffold(
+      appBar: null,
+      body: isLoaded
+          ? SafeArea(
+              child: SingleChildScrollView(
                 child: Column(
                   children: <Widget>[
                     Container(
                       width: MediaQuery.of(context).size.width * 1,
-                      height: 100,
+                      height: 180,
                       decoration: BoxDecoration(
                         color: blue,
                         borderRadius: const BorderRadius.only(
@@ -71,10 +68,13 @@ class _HomeState extends State<Home> {
                       child: Padding(
                         padding: const EdgeInsets.only(
                           left: 25.0,
-                          top: 1,
+                          top: 20,
                         ),
                         child: Column(
                           children: <Widget>[
+                            const SizedBox(
+                              height: 30,
+                            ),
                             Row(
                               children: [
                                 Expanded(
@@ -153,11 +153,9 @@ class _HomeState extends State<Home> {
                                   flex: 2,
                                   child: Padding(
                                     padding: const EdgeInsets.only(
-                                        top: 0, left: 0, right: 0),
+                                        top: 0, left: 0, right: 10),
                                     child: CircleAvatar(
-                                      radius:
-                                          MediaQuery.of(context).size.width *
-                                              0.1,
+                                      radius: 50,
                                       backgroundColor: Colors.pink,
                                       child: ClipRRect(
                                         borderRadius: BorderRadius.circular(
@@ -272,7 +270,7 @@ class _HomeState extends State<Home> {
                               dividerColor: Colors.orange,
                             ),
                             SizedBox(
-                              width: 10,
+                              width: 0,
                             ),
                             CardIlustration(
                               image:
@@ -297,11 +295,11 @@ class _HomeState extends State<Home> {
                     ),
                   ],
                 ),
-              )
-            : const Center(
-                child: CircularProgressIndicator(),
               ),
-      ),
+            )
+          : const Center(
+              child: CircularProgressIndicator(),
+            ),
     );
   }
 }
