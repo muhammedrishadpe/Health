@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../components/constent.dart';
+import '../../components/constent.dart';
 
 class PostCard extends StatelessWidget {
   final String image;

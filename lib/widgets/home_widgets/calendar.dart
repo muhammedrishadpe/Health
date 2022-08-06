@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
 
-import '../components/constent.dart';
+import '../../components/constent.dart';
 
 class Calendar extends StatelessWidget {
   const Calendar({

@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:health/components/constent.dart';
+import 'package:health/screens/bottom_Bar/bottom_bar.dart';
 import 'package:health/screens/home.dart';
 import 'package:table_calendar/table_calendar.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'Health',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Mukta'),
-      home: const Home(),
+      home: const BottomBar(),
     );
   }
 }
