@@ -3,7 +3,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:health/screens/event_page.dart';
-import 'package:health/screens/reading.dart';
+import 'package:health/screens/counselingReading/counsilng_reading.dart';
 import 'package:health/services/remote_service.dart';
 import 'package:stylish_bottom_bar/stylish_bottom_bar.dart';
 import 'package:table_calendar/table_calendar.dart';
@@ -205,6 +205,7 @@ class _HomeState extends State<Home> {
                     image: posts![0].imageUrl,
                     title: posts![0].title,
                     description: posts![0].description,
+                    onPressed: () {},
                   ),
                   const SizedBox(
                     height: 20,

@@ -6,11 +6,12 @@ class PostCard extends StatelessWidget {
   final String image;
   final String title;
   final String description;
-
+  final VoidCallback onPressed;
   const PostCard(
       {required this.image,
       required this.title,
       required this.description,
+      required this.onPressed,
       super.key});
 
   @override
@@ -118,7 +119,7 @@ class PostCard extends StatelessWidget {
                         backgroundColor: blue,
                       ),
                     ),
-                    onPressed: () {},
+                    onPressed: onPressed,
                     child: const Text(
                       "Learn More",
                       style: TextStyle(

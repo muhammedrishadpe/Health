@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:health/components/constent.dart';
 import 'package:stylish_bottom_bar/stylish_bottom_bar.dart';
 
+import '../counselingReading/reading_view.dart';
 import '../event_page.dart';
 import '../home.dart';
 import '../profile.dart';
-import '../reading.dart';
+import '../counselingReading/counsilng_reading.dart';
 
 class BottomBar extends StatefulWidget {
   const BottomBar({super.key});
@@ -20,7 +21,7 @@ class _BottomBarState extends State<BottomBar> {
     const Home(),
     const ReadingPage(),
     const EventPage(),
-    const Profile()
+    const Profile(),
   ];
 
   @override
