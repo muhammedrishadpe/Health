@@ -276,8 +276,11 @@ class _ReadingViewState extends State<ReadingView> {
               appBarColor: blue,
             ),
           )
-        : const Center(
-            child: CircularProgressIndicator(),
+        : Container(
+            color: Colors.white,
+            child: const Center(
+              child: CircularProgressIndicator(),
+            ),
           );
   }
 

@@ -1,3 +1,7 @@
+// ignore_for_file: body_might_complete_normally_nullable
+
+import 'package:health/models/get_event.dart';
+
 import '../models/ad_model.dart';
 
 import '../models/get_staff.dart';
@@ -28,6 +32,18 @@ class RemoteService {
     if (response.statusCode == 200) {
       var json = response.body;
       return getstaffFromJson(json);
+    }
+  }
+
+  Future<List<GetEvent>?> getEvent() async {
+    var client = http.Client();
+
+    var uri = Uri.parse(
+        'https://run.mocky.io/v3/0f0d9fc0-9c92-401f-bcfa-87432b25e897');
+    var response = await client.get(uri);
+    if (response.statusCode == 200) {
+      var json = response.body;
+      return getEventFromJson(json);
     }
   }
 }

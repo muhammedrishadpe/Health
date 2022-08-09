@@ -1,11 +1,7 @@
 // ignore_for_file: no_leading_underscores_for_local_identifiers
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:health/screens/event_page.dart';
-import 'package:health/screens/counselingReading/counsilng_reading.dart';
 import 'package:health/services/remote_service.dart';
-import 'package:stylish_bottom_bar/stylish_bottom_bar.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 import '../components/constent.dart';
