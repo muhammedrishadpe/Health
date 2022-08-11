@@ -162,7 +162,7 @@ class _HomeState extends State<Home> {
                                         100.0,
                                       ),
                                       child: Image.network(
-                                        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmy-YvQjLzmty_5BPPoqujOt1Y5HSnr8U9xg&usqp=CAU',
+                                        'https://i.pinimg.com/originals/2b/dd/ba/2bddba9e8ee56a3b5819334fe559bb3c.jpg',
                                         width: 100,
                                         height: 100,
                                         fit: BoxFit.cover,

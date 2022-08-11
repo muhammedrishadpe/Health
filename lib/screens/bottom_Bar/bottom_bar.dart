@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:health/components/constent.dart';
 import 'package:stylish_bottom_bar/stylish_bottom_bar.dart';
 
-import '../counselingReading/reading_view.dart';
 import '../event_page.dart';
 import '../home.dart';
 import '../profile.dart';

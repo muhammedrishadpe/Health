@@ -1,4 +1,4 @@
-// ignore_for_file: body_might_complete_normally_nullable
+// ignore_for_file: body_might_complete_normally_nullable, duplicate_ignore
 
 import 'package:health/models/get_event.dart';
 
