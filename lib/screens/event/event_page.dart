@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 import 'package:table_calendar/table_calendar.dart';
 
-import '../components/constent.dart';
-import '../models/get_event.dart';
-import '../services/remote_service.dart';
-import '../widgets/home_widgets/calendar.dart';
+import '../../components/constent.dart';
+import '../../models/get_event.dart';
+import '../../services/remote_service.dart';
+import '../../widgets/home_widgets/calendar.dart';
 
 class EventPage extends StatefulWidget {
   const EventPage({super.key});

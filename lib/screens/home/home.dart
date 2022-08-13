@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:health/services/remote_service.dart';
 import 'package:table_calendar/table_calendar.dart';
 
-import '../components/constent.dart';
-import '../models/ad_model.dart';
+import '../../components/constent.dart';
+import '../../models/ad_model.dart';
 
-import '../widgets/home_widgets/calendar.dart';
-import '../widgets/home_widgets/card.dart';
-import '../widgets/home_widgets/card_Ilustration.dart';
-import '../widgets/home_widgets/material_list_tile.dart';
+import '../../widgets/home_widgets/calendar.dart';
+import '../../widgets/home_widgets/card.dart';
+import '../../widgets/home_widgets/card_Ilustration.dart';
+import '../../widgets/home_widgets/material_list_tile.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});

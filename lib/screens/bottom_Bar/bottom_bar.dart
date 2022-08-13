@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:health/components/constent.dart';
 import 'package:stylish_bottom_bar/stylish_bottom_bar.dart';
 
-import '../event_page.dart';
-import '../home.dart';
-import '../profile.dart';
+import '../event/event_page.dart';
+import '../home/home.dart';
+import '../profile/profile.dart';
 import '../counselingReading/counsilng_reading.dart';
 
 class BottomBar extends StatefulWidget {
