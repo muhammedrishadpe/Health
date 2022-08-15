@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 
 import 'package:health/screens/bottom_Bar/bottom_bar.dart';
 
+import 'screens/login_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'Health',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Mukta'),
-      home: const BottomBar(),
+      home: LoginAuth(),
     );
   }
 }
